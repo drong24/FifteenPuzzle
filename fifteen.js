@@ -18,6 +18,7 @@ window.onload = function() {
         }
         $(idName).addEventListener("click", move);
         $("shufflebutton").addEventListener("click", shuffleSquares);
+        $(idName).onmouseover = showRedText;
    }
     // sets current empty row and column
     num1 = 4;
@@ -66,5 +67,19 @@ function shuffleSquares () {
             
         }
         
+    }
+}
+
+// checks whether hovered square is a valid move and changes square color if it is
+function showRedText() {
+    let temp1 = parseInt(this.id.substring(7, 8));
+    let temp2 = parseInt(this.id.substring(9));
+    let near = checkNearby(temp1, temp2);
+    let hoveredSquare = document.getElementById(this.id);
+    if (near) {
+        document.getElementById(this.id).classList.add("hover");
+    }
+    else {
+        document.getElementById(this.id).classList.remove("hover");
     }
 }
