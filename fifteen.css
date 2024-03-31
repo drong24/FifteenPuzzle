@@ -1,0 +1,155 @@
+
+* {
+    /*border: 1px solid red;*/
+    font-family: cursive;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#puzzlearea div {
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+    position: absolute;
+    justify-content: center;
+}
+
+#puzzlearea div:hover {
+    color: red;
+    border: 5px solid red;
+}
+
+#square_1_1 {
+    left: 0px;
+    top: 0px;
+}
+#square_1_2 {
+    left: 100px;
+    top: 0px;
+}
+#square_1_3 {
+    left: 200px;
+    top: 0px;
+}
+#square_1_4 {
+    left: 300px;
+    top: 0px;
+} 
+#square_2_1 {
+    left: 0px;
+    top: 100px;
+}
+#square_2_2 {
+    left: 100px;
+    top: 100px;
+
+}
+#square_2_3 {
+    left: 200px;
+    top: 100px;
+}
+#square_2_4 {
+    left: 300px;
+    top: 100px;
+}
+#square_3_1 {
+    left: 0px;
+    top: 200px;
+}
+#square_3_2 {
+    left: 100px;
+    top: 200px;
+}
+#square_3_3 {
+    left: 200px;
+    top: 200px;
+}
+#square_3_4 {
+    left: 300px;
+    top: 200px;
+}
+#square_4_1 {
+    left: 0px;
+    top: 300px;
+}
+#square_4_2 {
+    left: 100px;
+    top: 300px;
+}
+#square_4_3 {
+    left: 200px;
+    top: 300px;
+}
+#square_4_4 {
+    left: 300px;
+    top: 300px;
+}
+
+.piece_1 {
+    background-image: url(./background.jpg);
+    background-position: 0% 0%;
+}
+.piece_2 {
+    background-image: url(./background.jpg);
+    background-position: 33% 0%;
+}
+.piece_3 {
+    background-image: url(./background.jpg);
+    background-position: 66% 0%;
+}
+.piece_4 {
+    background-image: url(./background.jpg);
+    background-position: 100% 0%;
+}
+.piece_5 {
+    background-image: url(./background.jpg);
+    background-position: 0% 33%;
+}
+.piece_6 {
+    background-image: url(./background.jpg);
+    background-position: 33% 33%;
+}
+.piece_7 {
+    background-image: url(./background.jpg);
+    background-position: 66% 33%;
+}
+.piece_8 {
+    background-image: url(./background.jpg);
+    background-position: 100% 33%;
+}
+.piece_9 {
+    background-image: url(./background.jpg);
+    background-position: 0% 66%;
+}
+.piece_10 {
+    background-image: url(./background.jpg);
+    background-position: 33% 66%;
+}
+.piece_11 {
+    background-image: url(./background.jpg);
+    background-position: 66% 66%;
+}
+.piece_12 {
+    background-image: url(./background.jpg);
+    background-position: 100% 66%;
+}
+.piece_13 {
+    background-image: url(./background.jpg);
+    background-position: 0% 100%;
+}
+.piece_14 {
+    background-image: url(./background.jpg);
+    background-position: 33% 100%;
+}
+.piece_15 {
+    background-image: url(./background.jpg);
+    background-position: 66% 100%;
+}
