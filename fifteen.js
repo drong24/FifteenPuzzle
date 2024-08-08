@@ -17,9 +17,9 @@ window.onload = function() {
             num1++;
             num2 = 1;
         }
-        $(idName).addEventListener("click", move);
-        $("shufflebutton").addEventListener("click", shuffleSquares);
-        $(idName).onmouseover = showRedText;
+        document.getElementById(idName).addEventListener("click", move);
+        document.getElementById("shufflebutton").addEventListener("click", shuffleSquares);
+        document.getElementById(idName).onmouseover = showRedText;
    }
     // sets current empty row and column
     num1 = 4;
