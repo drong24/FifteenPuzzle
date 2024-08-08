@@ -4,6 +4,7 @@ let num1 = 1;
 let num2 = 1;
 
 window.onload = function() {
+    console.log("here");
    let squares = document.getElementById("puzzlearea").children;
    for (let i = 0; i < squares.length; i++) {
         idName = "square_" + num1 + "_" + num2;
