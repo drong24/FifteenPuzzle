@@ -75,7 +75,6 @@ function showRedText() {
     let temp1 = parseInt(this.id.substring(7, 8));
     let temp2 = parseInt(this.id.substring(9));
     let near = checkNearby(temp1, temp2);
-    let hoveredSquare = document.getElementById(this.id);
     if (near) {
         document.getElementById(this.id).classList.add("hover");
     }
